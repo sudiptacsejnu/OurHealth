@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you a Doctor ?"
+        android:textAllCaps="false"
+        android:layout_margin="12dp"
+        android:background="@drawable/round_sign_up_button"
+        android:onClick="RegisterAsDoctor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you a Data analyst ?"
+        android:textAllCaps="false"
+        android:layout_margin="12dp"
+        android:background="@drawable/round_sign_up_button"
+        android:onClick="RegisterasAnalyst"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you a Patient ?"
+        android:textAllCaps="false"
+        android:layout_margin="12dp"
+        android:background="@drawable/round_sign_up_button"
+        android:onClick="RegisterAsPatient"/>
+
+</LinearLayout>

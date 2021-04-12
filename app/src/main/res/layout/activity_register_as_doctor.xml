@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterAsDoctor"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Name: "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_margin="12dp"
+        android:padding="8dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="NID Number: "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_margin="12dp"
+        android:padding="8dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Dr. ID Number: "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_margin="12dp"
+        android:padding="8dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_btn"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_margin="12dp"
+        android:onClick="RegisterAsDoctorSubmit"/>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timeline"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/background_blue">
+
+    <LinearLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="15dp"
+            android:src="@drawable/health_care_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Timeline"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="top">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Write your post here..."
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:background="@drawable/write_post"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Post"
+                    android:fontFamily="serif"
+                    android:textAllCaps="false"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/round_sign_up_button"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_01"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_02"/><ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_01"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_02"/><ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_01"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_02"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

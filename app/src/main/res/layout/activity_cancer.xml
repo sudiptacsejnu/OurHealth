@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cancer"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/background_blue">
+
+    <LinearLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="15dp"
+            android:src="@drawable/health_care_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Cancer"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="top">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_01"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_02"/><ImageView
+            android:layout_width="match_parent"
+            android:layout_height="700px"
+            android:src="@drawable/write_post_01"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_02"/><ImageView
+            android:layout_width="match_parent"
+            android:layout_height="700px"
+            android:src="@drawable/write_post_01"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_02"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
