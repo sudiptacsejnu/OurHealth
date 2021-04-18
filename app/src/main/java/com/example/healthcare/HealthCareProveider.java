@@ -25,4 +25,28 @@ public class HealthCareProveider extends AppCompatActivity {
         Intent intent = new Intent(this, Profile.class);
         startActivity(intent);
     }
+
+    public void DoctorSuccessStories(View view) {
+
+        Intent intent = new Intent(this, DoctorSuccessStories.class);
+        startActivity(intent);
+    }
+
+    public void Contuct_Us(View view) {
+
+        Intent intent = new Intent(this, Contact_Us.class);
+        startActivity(intent);
+    }
+
+    public void Patients(View view) {
+
+        Intent intent = new Intent(this, Timeline.class);
+        startActivity(intent);
+    }
+
+    public void Practice_areas(View view) {
+
+        Intent intent = new Intent(this, Practice_Area.class);
+        startActivity(intent);
+    }
 }

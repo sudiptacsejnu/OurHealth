@@ -169,7 +169,8 @@
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@color/white">
+            app:cardBackgroundColor="@color/white"
+            android:onClick="Recent_Health_Status">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -205,7 +206,8 @@
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@color/white">
+            app:cardBackgroundColor="@color/white"
+            android:onClick="Past_health_Status">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -241,7 +243,8 @@
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@color/white">
+            app:cardBackgroundColor="@color/white"
+            android:onClick="About">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -277,7 +280,8 @@
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            app:cardBackgroundColor="@color/white">
+            app:cardBackgroundColor="@color/white"
+            android:onClick="Contact_Us">
 
             <LinearLayout
                 android:layout_width="wrap_content"

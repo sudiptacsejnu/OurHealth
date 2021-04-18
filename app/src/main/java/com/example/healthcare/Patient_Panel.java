@@ -25,4 +25,28 @@ public class Patient_Panel extends AppCompatActivity {
         Intent intent = new Intent(this, Profile.class);
         startActivity(intent);
     }
+
+    public void About(View view) {
+
+        Intent intent = new Intent(this, About.class);
+        startActivity(intent);
+    }
+
+    public void Contact_Us(View view) {
+
+        Intent intent = new Intent(this, Contact_Us.class);
+        startActivity(intent);
+    }
+
+    public void Recent_Health_Status(View view) {
+
+        Intent intent = new Intent(this, Timeline.class);
+        startActivity(intent);
+    }
+
+    public void Past_health_Status(View view) {
+
+        Intent intent = new Intent(this, Timeline.class);
+        startActivity(intent);
+    }
 }
