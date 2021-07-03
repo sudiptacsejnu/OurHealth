@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Practice_Area"></activity>
+        <activity android:name=".Registration_Common_Info"></activity>
+        <activity android:name=".Timeline_Patient" />
+        <activity android:name=".PatientProfile" />
+        <activity android:name=".Practice_Area" />
         <activity android:name=".Contact_Us" />
         <activity android:name=".DoctorSuccessStories" />
         <activity android:name=".About" />

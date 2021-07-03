@@ -6,8 +6,190 @@
     android:layout_height="match_parent"
     tools:context=".Profile"
     android:orientation="vertical"
-    android:gravity="center"
-    android:background="@drawable/profile_background_realdata">
+    android:gravity="top"
+    android:background="@drawable/doctor_profile_background">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Dr. Mohammad Tanvir Islam"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top">
+
+        <Button
+            android:id="@+id/AboutBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_sign_up_button"
+            android:text="About"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="4pt"
+            android:onClick="Profile_About"/>
+        <Button
+            android:id="@+id/ExperienceBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn"
+            android:text="Experience"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="4pt"
+            android:onClick="Profile_Experience"/>
+        <Button
+            android:id="@+id/MassageBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn"
+            android:text="Massage"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_margin="4pt"
+            android:onClick="Profile_Massage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Profile_About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education: Mymenshing Medical College"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Works at: Dhaka Medical College"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post: Assistant Professor"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: tanvir@****.***.com"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Profile_Experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Working Place: Mymenshing Medical College (2005-2009)"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Working Place: Cumilla Medical College (2010-2015)"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Working Place: Khulna Medical College (2016-2019)"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Working Place: Dhaka Medical College (2020-)"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12pt"
+            android:layout_marginRight="12pt"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Profile_Massage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:visibility="gone">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Write your massage here..."
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:background="@drawable/write_post"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Voice to Text"
+                android:fontFamily="serif"
+                android:textAllCaps="false"
+                android:layout_margin="8dp"
+                android:background="@drawable/round_login_button"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Post"
+                android:fontFamily="serif"
+                android:textAllCaps="false"
+                android:layout_margin="8dp"
+                android:background="@drawable/round_sign_up_button"/>
+        </LinearLayout>
+
+    </LinearLayout>
 
 
 </LinearLayout>

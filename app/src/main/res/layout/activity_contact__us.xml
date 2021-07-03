@@ -41,14 +41,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Our Success Stories"
+            android:text="Contact Us"
             android:textSize="24sp"
             android:textColor="@color/white"
             android:fontFamily="serif"
             android:textStyle="bold"/>
 
         <EditText
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="70dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Address"
@@ -58,7 +58,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Contact no: 01965394939"
+            android:text="Contact no: 01*********"
             android:textColor="@color/black"
             android:paddingLeft="12pt"
             android:paddingRight="12pt"/>

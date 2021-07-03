@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Timeline"
+            android:text="Patient's List"
             android:textSize="24sp"
             android:textColor="@color/white"
             android:fontFamily="serif"
@@ -59,6 +59,16 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="right">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Voice to Text"
+                    android:fontFamily="serif"
+                    android:textAllCaps="false"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/round_login_button"/>
+
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
@@ -76,14 +86,16 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="700px"
-                android:src="@drawable/write_post_02"/><ImageView
-                android:layout_width="match_parent"
-                android:layout_height="700px"
-                android:src="@drawable/write_post_01"/>
+                android:src="@drawable/write_post_03"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="700px"
-                android:src="@drawable/write_post_02"/><ImageView
+                android:src="@drawable/write_post_02"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700px"
+                android:src="@drawable/write_post_02"/>
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="700px"
                 android:src="@drawable/write_post_01"/>

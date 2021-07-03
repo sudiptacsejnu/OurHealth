@@ -46,6 +46,11 @@
 
             <ImageView
                 android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/stat_bar"/>
+
+            <ImageView
+                android:layout_width="match_parent"
                 android:layout_height="700px"
                 android:src="@drawable/write_post_01"/>
             <ImageView

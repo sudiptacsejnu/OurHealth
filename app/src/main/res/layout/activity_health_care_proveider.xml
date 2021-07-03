@@ -121,7 +121,8 @@
                     android:text="Timeline"
                     android:textStyle="bold"
                     android:textAlignment="center"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>
@@ -156,7 +157,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Profile"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -193,7 +195,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Patients"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -230,7 +233,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Practice Area"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -267,7 +271,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Success Stories"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -304,7 +309,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Contact Us"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />

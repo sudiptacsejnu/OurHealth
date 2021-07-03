@@ -52,7 +52,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Name"
+                    android:text="Mr. Rofiq"
                     android:textColor="@color/white"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -114,7 +114,8 @@
                     android:text="Time Line"
                     android:textStyle="bold"
                     android:textAlignment="center"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>
@@ -149,7 +150,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Profile"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -186,8 +188,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Recent Health Status"
-                    android:textColor="@color/teal_200"
+                    android:text="Recent Health \n Status"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -223,8 +226,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Past Health Status"
-                    android:textColor="@color/teal_200"
+                    android:text="Past Health\n Status"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -261,7 +265,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="About"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />
@@ -298,7 +303,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Contact Us"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
                     android:textStyle="bold"
                     android:textAlignment="center"
                     android:gravity="center_horizontal" />

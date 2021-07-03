@@ -6,18 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class RegisterAsPatient extends AppCompatActivity {
+public class Registration_Common_Info extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_as_patient);
+        setContentView(R.layout.activity_registration__common__info);
     }
 
-    public void RegisterAsPatientSubmit(View view) {
+    public void RegisterComInfo(View view) {
 
-        Intent intent = new Intent(this, Registration_Common_Info.class);
+        Intent intent = new Intent(this, General_Activity.class);
         startActivity(intent);
-
     }
 }

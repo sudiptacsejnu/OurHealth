@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Our Health Conditions"
+            android:text="Disease Conditions"
             android:textSize="24sp"
             android:textColor="@color/white"
             android:fontFamily="serif"
@@ -82,9 +82,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cancer"
-                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textSize="12pt"
                     android:textAlignment="center"
-                    android:textColor="@color/teal_200"
+                    android:textColor="@color/black"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>
@@ -114,9 +115,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Developmental \n and \n Chromosomal"
-                    android:textColor="@color/teal_200"
-                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textSize="10pt"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>
@@ -146,9 +148,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Digestive \n and \n Intestinal"
-                    android:textColor="@color/teal_200"
-                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textSize="12pt"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>
@@ -178,9 +181,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Endocrine"
-                    android:textColor="@color/teal_200"
-                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textSize="12pt"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>
@@ -210,9 +214,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Eye,  Ear, \n Nose \n and \n Throat"
-                    android:textColor="@color/teal_200"
-                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textSize="12pt"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>
@@ -243,9 +248,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Heart, Blood \n and \n Circulatory"
-                    android:textColor="@color/teal_200"
-                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textSize="12pt"
                     android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:gravity="center_horizontal" />
 
             </LinearLayout>

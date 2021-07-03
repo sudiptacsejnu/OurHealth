@@ -15,7 +15,7 @@
         android:background="@color/white"
         android:hint="Name: "
         android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/gray"
         android:layout_margin="12dp"
         android:padding="8dp" />
     <EditText
@@ -24,7 +24,7 @@
         android:background="@color/white"
         android:hint="Father's Name: "
         android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/gray"
         android:layout_margin="12dp"
         android:padding="8dp" />
     <EditText
@@ -33,7 +33,7 @@
         android:background="@color/white"
         android:hint="NID Number: "
         android:textColor="@color/black"
-        android:textColorHint="@color/black"
+        android:textColorHint="@color/gray"
         android:layout_margin="12dp"
         android:padding="8dp" />
 
@@ -42,6 +42,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/login_btn"
         android:text="Submit"
+        android:textSize="18sp"
+        android:textStyle="bold"
         android:textAllCaps="false"
         android:layout_margin="12dp"
         android:onClick="RegisterAsPatientSubmit"/>

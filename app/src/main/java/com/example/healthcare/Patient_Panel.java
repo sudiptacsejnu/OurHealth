@@ -16,13 +16,13 @@ public class Patient_Panel extends AppCompatActivity {
 
     public void Timeline(View view) {
 
-        Intent intent = new Intent(this, Timeline.class);
+        Intent intent = new Intent(this, Timeline_Patient.class);
         startActivity(intent);
     }
 
     public void Profile(View view) {
 
-        Intent intent = new Intent(this, Profile.class);
+        Intent intent = new Intent(this, PatientProfile.class);
         startActivity(intent);
     }
 
@@ -40,13 +40,13 @@ public class Patient_Panel extends AppCompatActivity {
 
     public void Recent_Health_Status(View view) {
 
-        Intent intent = new Intent(this, Timeline.class);
+        Intent intent = new Intent(this, Timeline_Patient.class);
         startActivity(intent);
     }
 
     public void Past_health_Status(View view) {
 
-        Intent intent = new Intent(this, Timeline.class);
+        Intent intent = new Intent(this, Timeline_Patient.class);
         startActivity(intent);
     }
 }

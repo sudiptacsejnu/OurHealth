@@ -16,7 +16,7 @@ public class RegisterAsDoctor extends AppCompatActivity {
 
     public void RegisterAsDoctorSubmit(View view) {
 
-        Intent intent = new Intent(this, General_Activity.class);
+        Intent intent = new Intent(this, Registration_Common_Info.class);
         startActivity(intent);
     }
 }

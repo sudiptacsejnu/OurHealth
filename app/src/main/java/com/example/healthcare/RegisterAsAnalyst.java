@@ -15,7 +15,7 @@ public class RegisterAsAnalyst extends AppCompatActivity {
     }
 
     public void RegisterAsAnalystSubmit(View view) {
-        Intent intent = new Intent(this, General_Activity.class);
+        Intent intent = new Intent(this, Registration_Common_Info.class);
         startActivity(intent);
     }
 }
